@@ -1,7 +1,6 @@
 function Mine_Up_Main()
     local Blocks_Up = 0 
 
-
     turtle.dig()
     turtle.forward()
     turtle.dig()
@@ -26,6 +25,7 @@ function Mine_Up_Main()
         turtle.down()
         Blocks_Up = Blocks_Up -1
     end
+    
     turtle.dig()
     turtle.select(16)
     turtle.forward()
